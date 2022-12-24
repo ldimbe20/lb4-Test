@@ -1,0 +1,16 @@
+{
+  "ids": {
+    "Product": 4,
+    "Habit": 3
+  },
+  "models": {
+    "Product": {
+      "1": "{\"title\":\"string\",\"qty\":8,\"price\":8,\"id\":1}",
+      "3": "{\"title\":\"testsg\",\"qty\":10,\"price\":9,\"id\":3}"
+    },
+    "Habit": {
+      "1": "{\"title\":\"put didshed away\",\"count\":0,\"id\":1}",
+      "2": "{\"title\":\"test\",\"count\":0,\"id\":2}"
+    }
+  }
+}
