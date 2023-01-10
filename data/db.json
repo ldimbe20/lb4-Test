@@ -1,7 +1,11 @@
 {
   "ids": {
     "Product": 4,
-    "Habit": 3
+    "Habit": 5,
+    "Heroes": 6,
+    "Cats": 34,
+    "User": 5,
+    "Cat": 12
   },
   "models": {
     "Product": {
@@ -10,7 +14,28 @@
     },
     "Habit": {
       "1": "{\"title\":\"put didshed away\",\"count\":0,\"id\":1}",
-      "2": "{\"title\":\"test\",\"count\":0,\"id\":2}"
+      "2": "{\"title\":\"test\",\"count\":0,\"id\":2}",
+      "3": "{\"title\":\"test\",\"count\":-3,\"id\":3}",
+      "4": "{\"title\":\"re\",\"count\":-1,\"id\":4}"
+    },
+    "Heroes": {
+      "1": "{\"id\":1,\"name\":\"stg\"}",
+      "3": "{\"name\":\"wwr\",\"id\":3}",
+      "4": "{\"name\":\"er\",\"id\":4}"
+    },
+    "Cat": {
+      "1": "{\"name\":\"Lisa\",\"user_id\":1,\"playStyle\":\"None\",\"age\":0,\"friendly\":true,\"fixed\":true,\"breed\":\"Milo\",\"id\":1}",
+      "2": "{\"name\":\"Timmy\",\"user_id\":2,\"playStyle\":\"None\",\"age\":6,\"friendly\":true,\"fixed\":true,\"breed\":\"test\",\"id\":2}",
+      "3": "{\"name\":\"Liza\",\"user_id\":2,\"playStyle\":\"None\",\"age\":11,\"friendly\":false,\"fixed\":true,\"breed\":\"test\",\"id\":3}",
+      "4": "{\"name\":\"nino\",\"user_id\":2,\"playStyle\":\"test\",\"age\":11,\"friendly\":true,\"fixed\":true,\"breed\":\"test\",\"id\":4}",
+      "5": "{\"name\":\"Opo\",\"user_id\":2,\"playStyle\":\"Fun\",\"age\":7,\"friendly\":true,\"fixed\":true,\"breed\":\"Unknown\",\"id\":5}",
+      "6": "{\"name\":\"Blanche\",\"user_id\":2,\"playStyle\":\"Test\",\"age\":12,\"friendly\":true,\"fixed\":true,\"breed\":\"Tesst\",\"id\":6}"
+    },
+    "User": {
+      "1": "{\"name\":\"Cob\",\"password\":\"password\",\"id\":1}",
+      "2": "{\"name\":\"test\",\"password\":\"test\",\"id\":2}",
+      "3": "{\"name\":\"test\",\"password\":\"test\",\"id\":3}",
+      "4": "{\"name\":\"tammy\",\"password\":\"tammy\",\"id\":4}"
     }
   }
 }

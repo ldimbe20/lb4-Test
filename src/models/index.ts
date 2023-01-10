@@ -1,2 +1,2 @@
-export * from './product.model';
-export * from './habit.model';
+export * from './cat.model';
+export * from './user.model';

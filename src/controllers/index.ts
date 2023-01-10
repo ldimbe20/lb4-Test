@@ -1,3 +1,2 @@
-export * from './ping.controller';
-export * from './product.controller';
-export * from './habit.controller';
+export * from './cat.controller';
+export * from './user.controller';

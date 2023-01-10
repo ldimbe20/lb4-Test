@@ -1,7 +1,7 @@
 import {Entity, model, property} from '@loopback/repository';
 
 @model()
-export class Habit extends Entity {
+export class User extends Entity {
   @property({
     type: 'number',
     id: true,
@@ -13,21 +13,22 @@ export class Habit extends Entity {
     type: 'string',
     required: true,
   })
-  title: string;
+  email: string;
 
   @property({
-    type: 'number',
+    type: 'string',
+    required: true,
   })
-  count?: number;
+  password: string;
 
 
-  constructor(data?: Partial<Habit>) {
+  constructor(data?: Partial<User>) {
     super(data);
   }
 }
 
-export interface HabitRelations {
+export interface UserRelations {
   // describe navigational properties here
 }
 
-export type HabitWithRelations = Habit & HabitRelations;
+export type UserWithRelations = User & UserRelations;
